@@ -7,6 +7,6 @@
 ``` 
 $target 	= basename($_FILES['image']['name']);
 $file 		= $_FILES['image']['tmp_name'];
-$target 	= 50;
+$quality 	= 50;
 compressImage($file , $target , $quality);
 ``` 
