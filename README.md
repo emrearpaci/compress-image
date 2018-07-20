@@ -5,8 +5,8 @@
 ---------------------------------
 
 ``` 
-$target 	  = basename($_FILES['image']['name']);
-$file 		  = $_FILES['image']['tmp_name'];
-$quality 		= 50;
+$target   = basename($_FILES['image']['name']);
+$file   = $_FILES['image']['tmp_name'];
+$quality    = 50;
 compressImage($file , $target , $quality);
 ``` 
